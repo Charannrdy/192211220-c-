@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    a=3;
+    b=4;
+    c=1;
+    int n=3;
+    int sum=a+b+c;
+    double avg= double(sum)/n;
+    cout<<"SUM IS ::"<<sum<<endl;
+    cout<<"AVERAGE IS ::"<<avg;
+}

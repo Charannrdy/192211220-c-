@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int n=0;
+    if(n==0){
+        cout<<"ZERO";
+    }
+    if(n>0){
+        cout<<"POSITIVE";
+    }
+    if(n<0){
+        cout<<"NEGATIVE";
+    }
+}

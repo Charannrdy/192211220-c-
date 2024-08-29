@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n1=3;
+    int n2=4;
+    if(n1==n2){
+        cout<<"BOTH ARE EQUAL";
+    }else{
+        cout<<"NOT EQUAL";
+    }
+    return 0;
+}

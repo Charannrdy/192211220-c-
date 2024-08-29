@@ -1,0 +1,8 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main(){
+    int a=3,b=4;
+    string result = (a==b)?"numbers are equal":"not equal";
+    cout<<result;
+}

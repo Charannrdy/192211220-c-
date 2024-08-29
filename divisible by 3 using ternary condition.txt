@@ -1,0 +1,8 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n=9;
+    string result=(n%3==0)?"DIVISIBLE by 3":"Not divisible by 3";
+    cout<<result;
+}

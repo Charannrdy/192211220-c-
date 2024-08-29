@@ -1,0 +1,8 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a=3,b=4,c=5;
+    int largest = (a>b && a>c)?a:(b>c)?b:c;
+    cout<<largest;
+}

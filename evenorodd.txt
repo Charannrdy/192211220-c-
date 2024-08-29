@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n=0;
+    if(n==0){
+        cout<<"NEITHER ODD NOR EVEN";
+    } 
+    else if(n%2==0){
+        cout<<"EVEN";
+    }else{
+        cout<<"ODD";
+    }
+    return 0;
+}
